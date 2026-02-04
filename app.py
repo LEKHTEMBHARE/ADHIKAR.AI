@@ -12,9 +12,7 @@ app = Flask(__name__)
 # 🔑 API KEYS CONFIGURATION
 # ==========================================
 # Note: Production mein keys ko Environment Variables (.env) mein rakhna behtar hota hai.
-GEMINI_API_KEY = "AIzaSyCxGJ_K7BfzAdatxrPtcYVX19sVlNHwRkQ" 
-ELEVENLABS_API_KEY = "sk_50f6882614a5e8d135a88d7a0c0765af749700d04f203260"
-ELEVENLABS_VOICE_ID = "Xb7hH8MSUJpSbSDYk0k2"
+GEMINI_API_KEY = "Paste Your Gemini PRo API kEY " 
 
 # Configure Google API
 genai.configure(api_key=GEMINI_API_KEY)
@@ -167,4 +165,5 @@ def chat():
 
 if __name__ == '__main__':
     if not os.path.exists('static'): os.makedirs('static')
+
     app.run(debug=True, port=5000)
