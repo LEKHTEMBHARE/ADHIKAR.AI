@@ -55,6 +55,12 @@ The project focuses on breaking language barriers and making information access 
 
 ---
 
+## 📸 Screenshots
+
+<img width="1919" height="898" alt="Screenshot 2026-02-01 204526" src="https://github.com/user-attachments/assets/9bc987d0-01bf-4298-8918-2fbbc72d228b" />
+
+---
+
 ## 🎯 Project Goal
 
 The main goal of ADHIKAR.AI is to build a **real-world AI solution** that improves  
